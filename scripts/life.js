@@ -1,6 +1,5 @@
 var life_cur = [] ;
 
-var l= Sprite("life");
 
 function init_life()
 {
