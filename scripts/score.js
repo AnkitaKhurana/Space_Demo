@@ -2,8 +2,6 @@ var score = 0 ;
 var bonus = 0 ;
 var total_score = score+bonus;
 
-
-
 var scoreBox = {
 
 	color :"#ffffff",

@@ -30,6 +30,8 @@ function clearArray()
 
 }
 
+
+//Game End Screen
 function endGame()
 {
 		clearArray();

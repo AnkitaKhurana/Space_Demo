@@ -1,5 +1,3 @@
-//var explode = Sprite("explode");
-
 var player = {
 
 
@@ -28,8 +26,6 @@ player.explode = function()
 	this.active = false ;
 	this.draw_explosion(this.x,this.y);
 
-
-	//ADD EXPLOSION GRAPHIC AND END GAME
 }
 var p1 = player;
 
@@ -87,9 +83,8 @@ player.midpoint = function(){
 
 
 player.shoot = function(){
-	//Sound.play("shoot");
+
 	var audio = new Audio('sounds/shoot.mp3');
-	//var audio = new Audio('sounds/shoot.wav');
 	audio.play();
 	var bulletPosition = this.midpoint();
 	playerBullets.push(bullet({

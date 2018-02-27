@@ -29,7 +29,6 @@ function update_se(){
 
 function draw_se()
 {
-	//console.log(s_enemies);
 	s_enemies.forEach(function(enemy){
 		enemy.draw();
 	});
@@ -91,7 +90,6 @@ function S_enemy(I){
 		
 		this.active=false;
 		ex.draw(canvas,this.x-32,this.y-36);
-		//ADD EXPLOSION MUSIC 
 	};
 
 

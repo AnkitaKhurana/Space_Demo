@@ -55,6 +55,7 @@ function handleCollisions()
 		}
 	});
 
+	//Change level with score 
 	if(score==500*step)
 			{
 				canvas.clearRect(0,0,width,height);
